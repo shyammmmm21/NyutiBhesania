@@ -27,10 +27,8 @@ const About = () => {
                         transition={{ duration: 0.5, delay: 0.2 }}
                         className="md:w-1/3 bg-surface p-8 rounded-2xl border border-line shadow-sm hover:shadow-md transition-shadow"
                     >
-                        <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-br from-primary to-secondary p-1 mb-6">
-                            <div className="w-full h-full rounded-full bg-white flex items-center justify-center">
-                                <span className="text-3xl font-bold text-grayed/50">NB</span>
-                            </div>
+                        <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-br from-primary to-secondary p-1 mb-6 overflow-hidden">
+                            <img src="/pfp.jpeg" alt="Nyuti Bhesania" className="w-full h-full rounded-full object-cover shadow-inner" />
                         </div>
 
                         <div className="space-y-4">

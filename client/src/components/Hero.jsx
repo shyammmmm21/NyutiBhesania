@@ -101,10 +101,8 @@ const Hero = () => {
                     className="md:w-2/5 mt-16 md:mt-0 flex justify-center"
                 >
                     <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full p-2 bg-gradient-to-tr from-primary to-secondary overflow-hidden shadow-2xl">
-                        {/* Placeholder for actual image */}
-                        <div className="w-full h-full rounded-full bg-surface flex items-center justify-center">
-                            <span className="text-6xl font-bold text-grayed/30">NB</span>
-                        </div>
+                        {/* Profile Image */}
+                        <img src="/pfp.jpeg" alt="Nyuti Bhesania" className="w-full h-full rounded-full object-cover shadow-inner" />
                     </div>
                 </motion.div>
 
